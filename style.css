@@ -1,0 +1,275 @@
+/*header section start*/
+.Fabevy{
+    background-color: rgb(235 233 233);
+}
+.header-section{
+
+background-image: linear-gradient(to right,#bb077cd3,#9f10da);
+    color: white;
+    height: 195px;
+}
+.header-section img{
+    width: 15px;
+    height: 15px;
+}
+.navbar-nav{
+    justify-content: center;
+    flex: auto;
+    font-size: 20px;
+}
+.last .text-end{
+    position: relative;
+    top: 24px;
+    left: 9px;
+}
+
+/*header section end*/
+
+/*logo section start*/
+
+.logo-sec{
+    background-color: #ffff;
+}
+.image-section-1{
+    width: 83px;
+    height: 29px;
+}
+.image-section-2{
+    width: 122px;
+    height: 100%;
+}
+.image-section-3{
+    width: 77px;
+    height: 67px;
+    position: relative;
+    bottom: 24px;
+}
+.image-section-4{
+    width: 83px;
+    height: 26px;
+    position: relative;
+    bottom: 10px;
+}
+.image-section-5{
+    width: 86px;
+    height: 40px;
+}
+.logo-section span{
+    position: relative;
+    bottom: 17px;
+    background: white;
+    padding: 13px;
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+    .image-section-1{
+        width: 83px;
+        height: 29px;
+        position: relative;
+        top: 28px;
+   
+    }
+    .image-section-2{
+        width: 122px;
+        height: 100%;
+    }
+    .image-section-3{
+        width: 77px;
+        height: 67px;
+        position: relative;
+        bottom: 31px;
+    }
+    .image-section-4{
+        width: 83px;
+        height: 26px;
+        position: relative;
+        bottom: 10px;
+    }
+    .image-section-5{
+        width: 86px;
+        height: 40px;
+    }
+}
+@media(min-width: 992px) and (max-width: 1440px){
+
+    .image-section-1{
+        width: 83px;
+        height: 29px;
+        position: relative;
+        top: 27px;
+    }
+    .image-section-2{
+        width: 122px;
+        height: 100%;
+    }
+    .image-section-3{
+    width: 77px;
+    height: 67px;
+    position: relative;
+    top: 8px;
+}
+    
+    .image-section-4{
+        width: 83px;
+        height: 26px;
+        position: relative;
+        top: 30px;
+    }
+    .image-section-5{
+        width: 86px;
+        height: 40px;
+        position: relative;
+        top: 23px;
+    }
+}
+
+/*logo section end*/
+
+/*content section start*/
+
+.content-section{
+    height:100%;
+}
+.content-section .col-md-4{
+    font-size: 51px;
+    padding: 49px;
+}
+ .content-section .col-md-6{
+    padding: 41px;
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.col-md-6 .lead{
+    font-size: 16px;
+}
+
+/*content section end*/
+
+
+/*detail section start*/
+
+.detail-section{
+    background-color: #670099;
+    color:#fff;
+
+}
+.detail-section .col-md-4{
+    font-size: 43px;
+    padding: 49px;
+}
+.detail-section .col-md-6{
+    padding: 41px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+/*detail section end*/
+
+/*work section start*/
+
+.work-section img{
+    width: 98%;
+}
+.work-section .list-unstyled{
+    list-style: none;
+    /* margin: 35px; */
+    font-size: 30px;
+    font-weight: 800;
+}
+.work-section h3{
+    margin-top: 20px;  
+    font-size: 24px;
+}
+ .work-section .link{
+    font-size: 26px;
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+}
+
+@media (min-width: 768px) and (max-width: 843px){
+    .work-section h3{
+        font-size: 26px;
+    }
+}
+/*work section end*/
+
+/*name section start*/
+
+.name-section{
+    line-height: 1.5;
+}
+.name-section .lead{
+    padding-bottom: 35px;
+    font-size: 23px;
+}
+.name-section-1 h5{
+    padding-bottom: 39px;
+}
+.name-section-1{
+    border: 2px solid;
+}
+.name-section img{
+    width: 100%;
+    height: auto;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .name-section img{
+        width: 449px;
+    position: relative;
+    left: 17px;
+    top: 36px;
+
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .name-section img{
+        width: 449px;
+        position: relative;
+        left: 75px;
+        top: 24px; 
+    }
+}
+/*name section end*/
+
+/*call section start*/
+
+.call-section{
+    background-color: #670099;
+    color: #fff;
+    margin-top: 17px;
+}
+.call-section h4{
+    padding: 40px;
+   font-size: 19px;
+}
+.call-section span{
+    padding: 68px;
+    position: relative;
+    bottom: 26px;
+    font-size: 20px;
+    color: yellow;
+}
+/*call section end*/
+
+/*last section start*/
+
+.last-section{
+    background-color: #fff;
+    line-height: 2;
+}
+.last-section h3{
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 15px;
+} 
+.last-section .list-unstyled{
+    font-size: 17px;
+}
+
+/*last section end*/
+ 
+
